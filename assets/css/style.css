@@ -8,5 +8,42 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+.content {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  background: #e6f0ff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar .actions {
+  margin-left: auto;
+}
+
+.navbar ul a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #4f5361;
+  padding: 8px 14px;
 }
